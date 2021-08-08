@@ -96,7 +96,7 @@ h3 {
 }
 
 .todo-row {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
   margin: 4px auto;
@@ -110,6 +110,35 @@ h3 {
   padding: 16px;
   border-radius: 5px;
   width: 90%;
+}
+
+.arr1 {
+  margin: 2px auto;
+}
+
+.ref {
+  color: #fff;
+  font-size: 3px;
+}
+
+.arr2 {
+  justify-content: space-evenly;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+  text-align: right;
+  padding: 5px;
+  margin: 2px auto;
+}
+
+.createdAt {
+  color: #fff;
+  font-size: 3px;
+}
+
+.updatedAt {
+  color: #fff;
+  font-size: 3px;
 }
 
 .todo-row:nth-child(4n + 1) {
@@ -136,15 +165,26 @@ h3 {
   );
 }
 
-.icons {
+.date_icon {
   display: flex;
+  vertical-align: bottom;
+}
+
+.icons {
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  padding: auto;
   align-items: center;
   font-size: 24px;
   cursor: pointer;
 }
 
+.icons :hover {
+  color: greenyellow;
+}
+
 .delete-icon {
-  margin-right: 5px;
   color: #fff;
 }
 
