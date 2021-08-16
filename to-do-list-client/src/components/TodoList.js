@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import TodoForm from './TodoForm'
 import Todo from './Todo'
+import Paging from './Paging'
 
 function TodoList() {
     const [todos, setTodos] = useState([])
@@ -49,6 +50,7 @@ function TodoList() {
             <Todo
                 todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}
             />
+            <Paging />
         </div>
     )
 }
