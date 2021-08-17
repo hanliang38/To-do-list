@@ -46,7 +46,7 @@ To-Do-List로 할 일을 계획하고 목록으로 작성할 수 있습니다.
 ## 🗼 빌드
 
 - node.js (v 14.17.2)
-- React(react-dom, react-icons, react-router-dom ...) (v 17.0.2)
+- React(react-dom, react-icons, react-router-dom, react-js-pagination ...) (v 17.0.2)
 - sequelize (v 6.6.5)
 - sqlite (v 4.17.1)
 - cors (v 2.8.5)
