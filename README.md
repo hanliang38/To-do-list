@@ -54,7 +54,15 @@ To-Do-List로 할 일을 계획하고 목록으로 작성할 수 있습니다.
 - express (v 4.17.1)
 - dotenv (v 10.0.0)
 
-#####
+## 사용법
+
+```
+# to-do-clinet, to-do-server에서 각각 npm install 을 합니다.
+npm install
+
+# 시작
+npm start
+```
 
 </br></br>
 
